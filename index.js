@@ -1,12 +1,12 @@
 
 
-const age = 16;
-console.log(age);
+// const age = 16;
+// console.log(age);
 
-let number = 20;
+// let number = 20;
 
-number = '35';
-console.log(typeof number);
+// number = '35';
+// console.log(typeof number);
 
 // const price = 200;
 // console.log("Ціна на товар:", price);
@@ -38,8 +38,8 @@ console.log(typeof number);
 // console.log(add(5, 10, 15));
 
 
-for (let i = 0; i > 10; i += 1){
+for (let i = 0; i < 10; i += 2){
   console.log(i);
 }
 
-console.log(qweqwe);
+console.log('qweqwe');
