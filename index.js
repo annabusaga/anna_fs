@@ -38,7 +38,7 @@
 // console.log(add(5, 10, 15));
 
 
-for (let i = 0; i < 10; i += 2){
+for (let i = 0; i <=90; i += 50){
   console.log(i);
 }
 
