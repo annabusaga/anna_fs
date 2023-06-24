@@ -256,7 +256,7 @@ function getWeather(city, days) {
   const API_KEY = "9cd62f23e5a64369ba4110323232306";
 
   return fetch(
-    `${BASE_URL}/forecast.json${API_KEY}&q=${city}&days=${days}`
+    `${BASE_URL}/forecast.json?key=${API_KEY}&q=${city}&days=${days}`
   ).then((resp) => {
     console.log(resp);
     if (!resp.ok) {
@@ -288,5 +288,3 @@ function createMarkup(array) {
 // setInterval(() => {
 
 // }, 3000);
-
-// http://api.weatherapi.com/v1/forecast.json?key=8c99500dc0be4d30a8b173431231606&q=Paris&days=5
